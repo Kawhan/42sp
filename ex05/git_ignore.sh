@@ -1,2 +1,2 @@
 #!/bin/sh
-git --ignore 
+find . | git check-ignore --stdin
